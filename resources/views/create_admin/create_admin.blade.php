@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('parent.master')
 
 @section('title')
 Farmer - Create Admin    
