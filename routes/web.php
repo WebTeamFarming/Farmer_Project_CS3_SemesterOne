@@ -34,6 +34,7 @@ Route::get('/home/farmer_store',[
     'as' => 'home.farmer_store'
 ]);
 
+Route::resource('create_admin', 'CreateAdminController');
 
 Auth::routes();
 
